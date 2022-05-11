@@ -1,0 +1,10 @@
+-Xmx2G
+-Xms2G
+-XX:PerBytecodeRecompilationCutoff=-1
+-XX:PerMethodRecompilationCutoff=-1
+-Dfile.encoding=UTF-8
+-Djava.io.tmpdir=./temp
+-Djava.awt.headless=true
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:HeapDumpPath=./heapdump
+-XX:+ExitOnOutOfMemoryError
